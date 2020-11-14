@@ -19,7 +19,7 @@ function App() {
       setLoading(true)
       axios({
         method: 'post',
-        url: 'https://img-to-emoji.herokuapp.com/get-emoji',
+        url: 'https://img-to-emoji-back.herokuapp.com/get-emoji',
         data: formData,
         headers: {'Content-Type': 'multipart/form-data'},
       })
